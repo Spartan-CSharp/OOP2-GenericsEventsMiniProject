@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WrapUp
 {
 	internal class Program
 	{
-		static void Main(string[] args)
+		private static void Main()
 		{
 			DataAccess.BadEntryFound += DataAccess_BadEntryFound;
 
